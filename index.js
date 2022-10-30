@@ -9,7 +9,7 @@ app.use(express.json())
 //app.use("/usuarios ", blogRoutes)
 
 app.get("/", (req,res)=>{
-    res.send("HOLA MUNDO")
+    res.send("HOLA MUNDO, SOY SERGIO PEÑA")
 })
 
 app.listen(8000, () =>{
